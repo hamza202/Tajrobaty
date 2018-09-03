@@ -222,7 +222,26 @@
         </div>
     </section>
 
+    <div class="parallax bg-overlay-black-70 page-section-ptb parallax" data-jarallax='{"type": "scroll-opacity"}'
+         style="background-image: url(video/video.jpg);"
+         data-jarallax-video="mp4:video/video.mp4,webm:video/video-webm,ogv:video/video.ogv">
+        <div class="container">
+            <div class="row pos-r mt-20">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h5 class="text-white">سجل الأن</h5>
+                        <h2 class="text-white">هذا النص نص تجريبي قابل للتغير بنفس المساحة</h2>
+                    </div>
+                    <div class="text-center">
+                        <a target="blank" href="#" class="button button-border white">
+                            <span>سجل الأن</span>
+                        </a>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </div>
     <!--=================================
      footer -->
 
