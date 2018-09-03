@@ -9,7 +9,10 @@ body{
 .mega-menu .drop-down a:hover, .mega-menu .drop-down-tab-bar a:hover,
 .mega-menu .menu-links > li.active .drop-down a:hover,
 .mega-menu .drop-down-multilevel li:hover > a,
-.search .search-btn:hover,.footer-widget a{
+.search .search-btn:hover,.footer-widget a,
+ul.page-breadcrumb li a:hover,
+.sidebar-widget .widget-categories li a:hover,
+.sidebar-widget .widget-categories li a:hover i{
     color: #ead64c;
 }
 .button,#back-to-top .top{
@@ -24,7 +27,7 @@ body{
 .button{
     border-color: #2d4152;
 }
-.search .search-box button:hover,.listing-post-meta .theme-color a{
+.search .search-box button:hover,.listing-post-meta .theme-color a,.blog-entry .blog-detail .entry-title a:hover{
     color: #324a5e;
 }
 .button:hover, .button:focus {
@@ -36,7 +39,9 @@ body{
 a, button, input,
 .button.icon-color,
 a:hover,
-.theme-color{
+.theme-color,
+.entry-button a.button.arrow,
+.blog-entry .entry-meta ul li i{
     color: #2c9984;
 }
 .mega-menu .menu-logo img{
@@ -142,6 +147,70 @@ a.blog-name-left.theme-bg{
 }
 .social-icons li {
     margin: 0 0 8px 8px;
+}
+.page-title .page-breadcrumb{
+    float: left;
+    text-align: left;
+}
+.sidebar-widget .widget-categories li i {
+    padding-right: 2px;
+    margin-left: 10px;
+    margin-right: 0;
+}
+.entry-button a.button.arrow{
+    letter-spacing: 0;
+    font-weight: 500;
+}
+.entry-button a.button.arrow:hover{
+    background: transparent;
+    color: #324a5e;
+}
+.entry-button a.button.arrow:focus{
+    background-color: transparent;
+}
+.button.arrow i{
+    padding-right: 5px;
+    padding-left: 0;
+    position: relative;
+    top: 2px;
+    transition: padding-right 0.3s;
+}
+.button.arrow:hover i{
+    padding-right: 10px;
+}
+.blog-detail .media img.pearson-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.blog-entry .entry-meta ul li  i{
+    padding-left: 6px;
+    padding-right: 0;
+}
+.blog-entry .entry-meta ul li{
+    margin-right: 0;
+    margin-left: 12px;
+}
+.blog-entry .entry-meta ul li i{
+    padding-right: 0;
+}
+.pagination li a:focus, .pagination li a:hover, .pagination li span:focus, .pagination li span:hover{
+    background-color: #eeda4d;
+}
+.sidebar-widget{
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+.sidebar-widget:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+h6.pearson-name{
+    color: #838383;
 }
 @media (max-width: 991px) {
     .mega-menu .menu-logo {

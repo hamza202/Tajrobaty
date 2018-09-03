@@ -227,7 +227,6 @@
                                         <ul class="list-unstyled d-inline-block">
                                             <li><a href="#"><i class="fa fa-comment-o text-gray"></i> 4</a></li>
                                             <li><a href="#"><i class="fa fa-heart-o text-gray"></i> 95</a></li>
-                                            <li><a href="#"><span class="text-gray">$</span> 46</a></li>
                                         </ul>
                                         <div class="float-right mt-1">
                                             <h6 class="theme-color"><a href="#">تصنيف</a></h6>
@@ -256,7 +255,6 @@
                                         <ul class="list-unstyled d-inline-block">
                                             <li><a href="#"><i class="fa fa-comment-o text-gray"></i> 4</a></li>
                                             <li><a href="#"><i class="fa fa-heart-o text-gray"></i> 95</a></li>
-                                            <li><a href="#"><span class="text-gray">$</span> 46</a></li>
                                         </ul>
                                         <div class="float-right mt-1">
                                             <h6 class="theme-color"><a href="#">تصنيف</a></h6>
@@ -285,7 +283,6 @@
                                         <ul class="list-unstyled d-inline-block">
                                             <li><a href="#"><i class="fa fa-comment-o text-gray"></i> 4</a></li>
                                             <li><a href="#"><i class="fa fa-heart-o text-gray"></i> 95</a></li>
-                                            <li><a href="#"><span class="text-gray">$</span> 46</a></li>
                                         </ul>
                                         <div class="float-right mt-1">
                                             <h6 class="theme-color"><a href="#">تصنيف</a></h6>
@@ -314,7 +311,6 @@
                                         <ul class="list-unstyled d-inline-block">
                                             <li><a href="#"><i class="fa fa-comment-o text-gray"></i> 4</a></li>
                                             <li><a href="#"><i class="fa fa-heart-o text-gray"></i> 95</a></li>
-                                            <li><a href="#"><span class="text-gray">$</span> 46</a></li>
                                         </ul>
                                         <div class="float-right mt-1">
                                             <h6 class="theme-color"><a href="#">تصنيف</a></h6>
@@ -343,7 +339,6 @@
                                         <ul class="list-unstyled d-inline-block">
                                             <li><a href="#"><i class="fa fa-comment-o text-gray"></i> 4</a></li>
                                             <li><a href="#"><i class="fa fa-heart-o text-gray"></i> 95</a></li>
-                                            <li><a href="#"><span class="text-gray">$</span> 46</a></li>
                                         </ul>
                                         <div class="float-right mt-1">
                                             <h6 class="theme-color"><a href="#">تصنيف</a></h6>
