@@ -12,7 +12,7 @@ body{
 .search .search-btn:hover,.footer-widget a,
 ul.page-breadcrumb li a:hover,
 .sidebar-widget .widget-categories li a:hover,
-.sidebar-widget .widget-categories li a:hover i{
+.sidebar-widget .widget-categories li a:hover i,.footer-useful-link ul li a:hover{
     color: #ead64c;
 }
 .button,#back-to-top .top{
@@ -211,6 +211,41 @@ a.blog-name-left.theme-bg{
 }
 h6.pearson-name{
     color: #838383;
+}
+.last-tests figure{
+    position: relative;
+    margin-bottom: 0;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.last-tests figure img {
+    border-radius: 4px;
+    width: 90px;
+    height: 80px;
+    transform: scale(1);
+    transition: all 0.5s;
+    filter: brightness(75%);
+}
+.last-tests a:hover img{
+    transform: scale(1.2);
+}
+.last-tests a{
+    margin: 5px;
+    display: inline-block;
+}
+.last-tests .figure-title {
+    position: absolute;
+    text-align: center;
+    bottom: 5px;
+    right: 0;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+}
+.tagname{
+    font-size: 11px;
+    font-weight: 500;
 }
 @media (max-width: 991px) {
     .mega-menu .menu-logo {

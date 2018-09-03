@@ -216,6 +216,44 @@
                             <li><a href="#"><i class="fa fa-angle-double-left"></i> نص تجريبي</a></li>
                         </ul>
                     </div>
+                    <div class="sidebar-widget mb-3 clearfix">
+                        <h6 class=" mb-20"> تصنيقات التجارب </h6>
+                        <div class="last-tests">
+                        <a href="#">
+                            <figure>
+                                <img src="images/blog/small/05.jpg" alt="">
+                                <div class="figure-title">
+                                    <span class="tagname">#مشروع_مادة</span>
+                                </div>
+                            </figure>
+                        </a>
+                            <a href="#">
+                                <figure>
+                                    <img src="images/blog/small/05.jpg" alt="">
+                                    <div class="figure-title">
+                                        <span class="tagname">#مشروع_مادة</span>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="#">
+                                <figure>
+                                    <img src="images/blog/small/05.jpg" alt="">
+                                    <div class="figure-title">
+                                        <span class="tagname">#مشروع_مادة</span>
+                                    </div>
+                                </figure>
+                            </a>
+                            <a href="#">
+                                <figure>
+                                    <img src="images/blog/small/05.jpg" alt="">
+                                    <div class="figure-title">
+                                        <span class="tagname">#مشروع_مادة</span>
+                                    </div>
+                                </figure>
+                            </a>
+
+                        </div>
+                    </div>
                 </div>
                 <!-- ================================= -->
             </div>
