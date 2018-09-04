@@ -22,14 +22,14 @@
                             <div class="menu-bar">
                                 <ul class="menu-links">
 
-                                    <li><a href="#">الرئيسية </a>
+                                    <li><a href="index.php">الرئيسية </a>
                                     </li>
 
-                                    <li><a href="#"> نقاشات التجارب </a>
+                                    <li><a href="articles.php"> نقاشات التجارب </a>
                                     </li>
                                     <li><a href="#">تصنيفات</a>
                                     </li>
-                                    <li><a href="#">جامعات </a>
+                                    <li><a href="#">اسئلة ونقاشات </a>
 
                                     </li>
                                     <li><a href="#">عن المشروع</a>

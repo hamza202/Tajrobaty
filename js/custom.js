@@ -131,7 +131,7 @@ var $window = $(window),
     $('header .mega-menu li.active').parents('li').addClass('active');
 
     });
-  }
+  };
 
 /*************************
        owl carousel 
