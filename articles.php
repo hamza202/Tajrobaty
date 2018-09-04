@@ -78,7 +78,7 @@
                                     <div class="media">
                                         <img class="mr-3 pearson-img" src="images/team/01.jpg" alt="...">
                                         <div class="media-body">
-                                            <h6 class="mt-3 pearson-name">حمزة</h6>
+                                            <h6 class="mt-3 pearson-name">#تجارب_حمزة</h6>
                                         </div>
                                     </div>
                                     <div class="entry-title mb-10 mt-3">
@@ -114,7 +114,7 @@
                                     <div class="media">
                                         <img class="mr-3 pearson-img" src="images/team/01.jpg" alt="...">
                                         <div class="media-body">
-                                            <h6 class="mt-3 pearson-name">حمزة</h6>
+                                            <h6 class="mt-3 pearson-name">#تجارب_حمزة</h6>
                                         </div>
                                     </div>
                                     <div class="entry-title mb-10 mt-3">
@@ -150,7 +150,7 @@
                                     <div class="media">
                                         <img class="mr-3 pearson-img" src="images/team/01.jpg" alt="...">
                                         <div class="media-body">
-                                            <h6 class="mt-3 pearson-name">حمزة</h6>
+                                            <h6 class="mt-3 pearson-name">#تجارب_حمزة</h6>
                                         </div>
                                     </div>
                                     <div class="entry-title mb-10 mt-3">
@@ -191,7 +191,7 @@
                                 <li class="page-item">
                                     <a class="page-link" href="#" aria-label="Previous">
                                         <span aria-hidden="true">&laquo;</span>
-                                        <span class="sr-only">Previous</span>
+                                        <span class="sr-only">السابق</span>
                                     </a>
                                 </li>
                                 <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -200,7 +200,7 @@
                                 <li class="page-item">
                                     <a class="page-link" href="#" aria-label="Next">
                                         <span aria-hidden="true">&raquo;</span>
-                                        <span class="sr-only">Next</span>
+                                        <span class="sr-only">التالي</span>
                                     </a>
                                 </li>
                             </ul>
