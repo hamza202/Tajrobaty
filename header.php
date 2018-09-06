@@ -14,7 +14,7 @@
                             <!-- menu logo -->
                             <ul class="menu-logo">
                                 <li>
-                                    <a href="index-01.html"><img id="logo_img" src="images/logo.png" alt="logo">
+                                    <a href="index.php"><img id="logo_img" src="images/logo.png" alt="logo">
                                     </a>
                                 </li>
                             </ul>
@@ -38,8 +38,8 @@
                                                 class="fa fa-angle-down fa-indicator"></i></a>
                                         <!-- drop down multilevel  -->
                                         <ul class="drop-down-multilevel">
-                                            <li><a href="#">مستخدم جديد</a></li>
-                                            <li><a href="#">تسجيل الدخول</a></li>
+                                            <li><a href="signup.php">مستخدم جديد</a></li>
+                                            <li><a href="login.php">تسجيل الدخول</a></li>
                                         </ul>
                                     </li>
                                 </ul>

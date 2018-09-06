@@ -81,7 +81,7 @@
                                     <div class="remember-checkbox mb-20">
                                         <input type="checkbox" class="form-control" name="two" id="two"/>
                                         <label for="two"> تذكرني</label>
-                                        <a href="#" class="float-right">نسيت كلمة المرور؟</a>
+                                        <a href="forgot.php" class="float-right">نسيت كلمة المرور؟</a>
                                     </div>
                                 </div>
                                 <div class="text-center">
@@ -120,7 +120,7 @@
 </div>
 
 
-<div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span>TOP</span></a></div>
+<div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span>أعلى</span></a></div>
 
 <?php include "javascript.php" ?>
 

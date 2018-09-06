@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <h6 class="text-white mb-30 mt-10 text-uppercase">Contact Us</h6>
+                    <h6 class="text-white mb-30 mt-10 text-uppercase">تواصل معنا</h6>
                     <ul class="addresss-info">
                         <li><i class="fa fa-map-marker"></i>
                             <p>العنوان: السعودية جدة شارع التحلية</p></li>

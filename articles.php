@@ -321,7 +321,7 @@
 </div>
 
 
-<div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span>TOP</span></a></div>
+<div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span>أعلى</span></a></div>
 
 <?php include "javascript.php" ?>
 
