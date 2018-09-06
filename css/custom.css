@@ -41,7 +41,8 @@ a, button, input,
 a:hover,
 .theme-color,
 .entry-button a.button.arrow,
-.blog-entry .entry-meta ul li i{
+.blog-entry .entry-meta ul li i,
+.remember-checkbox a{
     color: #2c9984;
 }
 .mega-menu .menu-logo img{
@@ -53,7 +54,8 @@ a:hover,
 .light-gray-bg{
     background: #f6f6f6;
 }
-.section-title:nth-child(odd) .title-effect::before {
+.section-title:nth-child(odd) .title-effect::before,
+.login-bg .login-title {
     background: #2c9984;
 }
 .title-effect::before{
@@ -261,7 +263,9 @@ h6.pearson-name{
 .filter .btn-primary:focus{
     box-shadow: 0 0 0 0.2rem rgba(44, 153, 132, 0.52);
 }
-.filter .btn-primary:hover{
+.filter .btn-primary:hover,
+.login-social li a.fb:hover,
+.login-social li a.twitter:hover{
     background: #324a5e;
 }
 .filter .btn-primary:not(:disabled):not(.disabled):active:focus{
@@ -270,6 +274,21 @@ h6.pearson-name{
 }
 .filter .collapse .sidebar-widget{
     border: 2px dashed #24816f;
+}
+.log-in-section{
+    background-color: #324a5e;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+}
+.login-bg .login-form{
+    padding: 20px 30px;
+}
+.login-social li i {
+    border-left: 1px solid #fff;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-right: 0;
+    padding-right: 0;
+    margin-right: 0;
 }
 @media (max-width: 991px) {
     .mega-menu .menu-logo {
