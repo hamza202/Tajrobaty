@@ -69,12 +69,12 @@
                             <div class="login-form">
                                 <div class="section-field mb-20">
                                     <label class="mb-10" for="name">اسم المستخدم: </label>
-                                    <input id="name" class="web form-control" type="text" placeholder="اسم المستخدم"
+                                    <input required id="name" class="web form-control" type="text" placeholder="اسم المستخدم"
                                            name="web">
                                 </div>
                                 <div class="section-field mb-20">
                                     <label class="mb-10" for="Password">كلمة المرور: </label>
-                                    <input id="Password" class="Password form-control" type="password"
+                                    <input required id="Password" class="Password form-control" type="password"
                                            placeholder="كلمة المرور" name="Password">
                                 </div>
                                 <div class="section-field">
@@ -85,7 +85,7 @@
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <button class="button">
+                                    <button type="submit" class="button">
                                         <span>تسجيل الدخول</span>
                                         <i class="fa fa-check"></i>
                                     </button>
