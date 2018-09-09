@@ -334,6 +334,10 @@ h6.pearson-name{
 .comments-1 .comments-info a{
     font-weight: 600;
 }
+label.error{
+    margin-top: 10px;
+    color: red;
+}
 @media (max-width: 991px) {
     .mega-menu .menu-logo {
         padding: 10px 0;

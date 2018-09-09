@@ -63,11 +63,32 @@
             <div class="row">
                 <div class="col-lg-9">
 
-                    <div class="blog-entry">
-                        <textarea id="editor" >
-                                ربما انت القصه انت الالهام ابهر العالم بتجربتك الآن
-                        </textarea>
+
+                    <div class="blog-entry p-3">
+                        <form action="#" id="form-r">
+                            <div class="form-group">
+                                <label for="form-title" class="mt-2">عنوان التجربة</label>
+                                <input type="text" name="formTitle" class="form-control" id="form-title"
+                                       placeholder="عنوان التجربة">
+                            </div>
+                            <div class="form-group">
+                                <label for="formSelect" class="mt-2">اختر القسم</label>
+                                <select class="custom-select" id="formSelect" name="formSelect">
+                                    <option value=""> اختر القسم</option>
+                                    <option value="1">قسم</option>
+                                    <option value="2">قسم</option>
+                                    <option value="3">قسم</option>
+                                </select>
+                            </div>
+                            <label class="mt-2" for="editor">تحدث عن التجربة</label>
+                            <textarea id="editor" name="editor">
+
+                             </textarea>
+
+                            <button type="submit" class="button mt-3"> نشر التجربة</button>
+                        </form>
                     </div>
+
                 </div>
                 <!-- ================================================ -->
                 <div class="col-lg-3 ">
@@ -113,8 +134,6 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
                 <!-- ================================= -->
             </div>
@@ -135,6 +154,22 @@
 <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span>أعلى</span></a></div>
 
 <?php include "javascript.php" ?>
+<script src="js/jquery.validate.js"></script>
+<script>
+    jQuery(function ($) {
+        $("#form-r").validate({
+            event: 'blur',
+            rules: {
+                formTitle: {required: true},
+                formSelect: {required: true}
+            },
+            messages: {
+                formTitle: "الرجاء ادخال العنوان",
+                formSelect: "الرجاء اختيار القسم"
+            }
+        });
+    });
+</script>
 <script src="js/ckeditor.js"></script>
 <script src="js/sample.js"></script>
 <script>
