@@ -338,6 +338,22 @@ label.error{
     margin-top: 10px;
     color: red;
 }
+.login-form label.error{
+    position: absolute;
+    bottom: -29px;
+}
+.login-form .my-chick label.error{
+    bottom: -18px;
+}
+.my-chick input{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 3px;
+}
+.section-field{
+    position: relative;
+}
 @media (max-width: 991px) {
     .mega-menu .menu-logo {
         padding: 10px 0;

@@ -65,39 +65,47 @@
                         <div class="login-title">
                             <h2 class="text-white mb-0">تسجيل حساب جديد</h2>
                         </div>
-                        <form action="#">
+
                         <div class="login-form">
-                            <div class="row">
-                                <div class="section-field mb-20 col-sm-6">
-                                    <label class="mb-10" for="name">اسم المستخدم: </label>
-                                    <input required id="name" class="web form-control" type="text" placeholder="اسم المستخدم" name="web">
+                            <form action="#" id="form-r">
+                                <div class="row">
+                                    <div class="section-field mb-20 col-sm-6">
+                                        <label class="mb-10" for="name">اسم المستخدم: </label>
+                                        <input required id="name" class="web form-control" type="text"
+                                               placeholder="اسم المستخدم" name="web">
+                                    </div>
+                                    <div class="section-field mb-20 col-sm-6">
+                                        <label class="mb-10" for="name2">اسم العرض: </label>
+                                        <input required id="name2" class="web form-control" type="text"
+                                               placeholder="اسم العرض" name="name2">
+                                    </div>
                                 </div>
-                                <div class="section-field mb-20 col-sm-6">
-                                    <label class="mb-10" for="name">اسم العرض: </label>
-                                    <input required id="name" class="web form-control" type="text" placeholder="اسم العرض" name="web">
+                                <div class="section-field mb-20">
+                                    <label class="mb-10" for="name">بريد الكتروني: </label>
+                                    <input required type="email" placeholder="بريد الكتروني:" class="form-control"
+                                           name="email">
                                 </div>
-                            </div>
-                            <div class="section-field mb-20">
-                                <label class="mb-10" for="name">بريد الكتروني: </label>
-                                <input required type="email" placeholder="بريد الكتروني:" class="form-control" name="email">
-                            </div>
-                            <div class="section-field mb-20">
-                                <label class="mb-10" for="Password">كلمة المرور: </label>
-                                <input required id="Password" class="Password form-control" type="password" placeholder="كلمة المرور" name="Password">
-                            </div>
-                            <div class="section-field">
-                                <div class="remember-checkbox mb-20">
-                                    <input type="checkbox" class="form-control" required name="two" id="two" />
-                                    <label for="two"> اوافق على <a href="#">شروط استخدام تجربتي</a></label>
+                                <div class="section-field mb-20">
+                                    <label class="mb-10" for="Password">كلمة المرور: </label>
+                                    <input required id="Password" class="Password form-control" type="password"
+                                           placeholder="كلمة المرور" name="Password">
                                 </div>
-                            </div>
-                            <button type="submit" class="button">
-                                <span>تسجيل</span>
-                                <i class="fa fa-check"></i>
-                            </button>
-                            <p class="mt-20 mb-0">هل لديك حساب؟  <a href="login.php"> سجل الدخول الأن</a></p>
+                                <div class="section-field">
+                                    <div class=" mb-20 my-chick">
+                                        <input type="checkbox" id="agree" title="يجب الموافقة على الشروط" name="agree" />
+
+                                        <label for="agree"> اوافق على <a href="#">شروط استخدام تجربتي</a></label>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="button">
+                                    <span>تسجيل</span>
+                                    <i class="fa fa-check"></i>
+                                </button>
+                            </form>
+                            <p class="mt-20 mb-0">هل لديك حساب؟ <a href="login.php"> سجل الدخول الأن</a></p>
                         </div>
-                        </form>
+
                         <div class="login-social text-center clearfix">
                             <h4 class="theme-color mb-15">او سجل الدخول بواسطة:</h4>
                             <ul>
@@ -117,7 +125,7 @@
     <!--=================================
      footer -->
 
-    <?php include "footer.php"?>
+    <?php include "footer.php" ?>
 
     <!--=================================
      footer -->
@@ -127,8 +135,23 @@
 
 <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span>أعلى</span></a></div>
 
-<?php include "javascript.php"?>
-
+<?php include "javascript.php" ?>
+<script src="js/jquery.validate.js"></script>
+<script>
+    jQuery(function ($) {
+        $("#form-r").validate({
+            event: 'blur',
+            rules: {
+                agree: {
+                    required: true
+                }
+            },
+            messages: {
+                two: "يجب الموافقة على الشروط",
+            }
+        });
+    });
+</script>
 
 </body>
 
