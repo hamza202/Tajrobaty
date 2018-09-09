@@ -9,9 +9,6 @@
 <!-- Plugins -->
 <link rel="stylesheet" type="text/css" href="css/plugins-css.css"/>
 
-<!-- revoluation -->
-<link rel="stylesheet" type="text/css" href="revolution/css/settings.css" media="screen"/>
-
 <!-- Typography -->
 <link rel="stylesheet" type="text/css" href="css/typography.css"/>
 
@@ -22,7 +19,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 <!-- Responsive -->
-<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+<link rel="stylesheet" href="css/responsive.css"/>
 
 <!-- Style customizer -->
 <link rel="stylesheet" type="text/css" href="#" data-style="styles"/>

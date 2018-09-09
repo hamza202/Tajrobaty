@@ -1257,14 +1257,14 @@ border-color: #f6f7f8 transparent transparent transparent; }
 .page-item.active .page-link { background: #84ba3f; border-color: #84ba3f; }
 
 /*blog-comments*/
-.comments-1 .comments-photo { width: 106px; height: auto; float: left; border:5px solid #f7f7f7; margin-right: 20px; }
+.comments-1 .comments-photo { width: 75px; height: auto; float: right; border:5px solid #f7f7f7; margin-left: 20px; }
 .comments-1 .comments-photo img { width: 100%; }
 .comments-1 .comments-info { display: table; background: #f7f7f7; padding: 20px; margin-bottom: 20px; }
 .comments-1 .comments-info h4 { display: inline-block; } 
 .comments-1 .comments-info span { font-size: 13px; color: #626262; } 
 .comments-1 .comments-info a { color: #84ba3f; }
 .comments-1 .comments-info a:hover { color: #363636; }
-.comments-1.comments-2 { padding-left: 127px; }
+.comments-1.comments-2 { padding-right: 95px; }
 .comments-1.comments-2 .comments-info { background: #fff; margin-bottom: 0px; padding: 20px 20px 10px; }
  
 /*************************************
