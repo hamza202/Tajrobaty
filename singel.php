@@ -261,16 +261,12 @@
                                             </a>
                                         </li>
                                     </ul>
-                                    <div class="social-icons color ">
+                                    <div class="social-icons social-border rounded color-hover clearfix">
                                         <ul>
-                                            <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a>
-                                            </li>
-                                            <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a>
-                                            </li>
-                                            <li class="social-instagram"><a href="#"><i class="fa fa-instagram"></i></a>
-                                            </li>
-                                            <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a>
-                                            </li>
+                                            <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li class="social-instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                            <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
