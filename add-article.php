@@ -64,7 +64,9 @@
                 <div class="col-lg-9">
 
                     <div class="blog-entry">
-                        sdfsdf
+                        <textarea id="editor" >
+                                ربما انت القصه انت الالهام ابهر العالم بتجربتك الآن
+                        </textarea>
                     </div>
                 </div>
                 <!-- ================================================ -->
@@ -133,8 +135,11 @@
 <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span>أعلى</span></a></div>
 
 <?php include "javascript.php" ?>
-
-
+<script src="js/ckeditor.js"></script>
+<script src="js/sample.js"></script>
+<script>
+    initSample();
+</script>
 </body>
 
 </html>
