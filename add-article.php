@@ -71,8 +71,13 @@
                                 <input type="text" name="formTitle" class="form-control" id="form-title"
                                        placeholder="عنوان التجربة">
                             </div>
+                            <label class="d-block mt-3">صورة معبرة عن التجربة</label>
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="customFile">
+                                <label class="custom-file-label" for="customFile">اختر صوره</label>
+                            </div>
                             <div class="form-group">
-                                <label for="formSelect" class="mt-2">اختر القسم</label>
+                                <label for="formSelect" class="mt-3">اختر القسم</label>
                                 <select class="custom-select" id="formSelect" name="formSelect">
                                     <option value=""> اختر القسم</option>
                                     <option value="1">قسم</option>
@@ -80,10 +85,6 @@
                                     <option value="3">قسم</option>
                                 </select>
                             </div>
-                            <label class="mt-2" for="editor">تحدث عن التجربة</label>
-                            <textarea id="editor" name="editor">
-
-                             </textarea>
                             <div class="form-group mt-4">
                                 <label for="basic-url" class="mb-0">اضف رابط Youtube</label>
                                 <small class="d-block   ">مثال: https://www.youtube.com/watch?v=ARA0AxrnHdM</small>
@@ -96,11 +97,12 @@
                                            aria-describedby="basic-addon3">
                                 </div>
                             </div>
-                            <label class="d-block mt-3">صورة معبرة عن التجربة</label>
-                            <div class="custom-file">
-                                <input type="file" class="custom-file-input" id="customFile">
-                                <label class="custom-file-label" for="customFile">اختر صوره</label>
-                            </div>
+
+                            <label class="mt-2" for="editor">تحدث عن التجربة</label>
+                            <textarea id="editor" name="editor">
+
+                             </textarea>
+
                             <button type="submit" class="button mt-3"> نشر التجربة</button>
                         </form>
                     </div>
