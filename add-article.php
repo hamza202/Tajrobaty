@@ -93,7 +93,7 @@
                                         <span class="input-group-text" id="basic-addon3"><i
                                                     class="fa fa-youtube-play"></i></span>
                                     </div>
-                                    <input type="text" class="form-control" id="basic-url"
+                                    <input type="text" class="form-control" placeholder="رابط Youtube" id="basic-url"
                                            aria-describedby="basic-addon3">
                                 </div>
                             </div>

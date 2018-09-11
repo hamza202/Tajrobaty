@@ -93,7 +93,7 @@
           <entry key="css" value="1501" />
           <entry key="html" value="925" />
           <entry key="js" value="30" />
-          <entry key="php" value="2772" />
+          <entry key="php" value="2775" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -101,7 +101,7 @@
           <entry key="CSS" value="1501" />
           <entry key="HTML" value="925" />
           <entry key="JavaScript" value="30" />
-          <entry key="PHP" value="2772" />
+          <entry key="PHP" value="2775" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -116,8 +116,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/add-article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="79" column="67" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
+            <state relative-caret-position="357">
+              <caret line="95" column="132" selection-start-line="95" selection-start-column="132" selection-end-line="95" selection-end-column="132" />
             </state>
           </provider>
         </entry>
@@ -352,12 +352,12 @@
       <workItem from="1536484637497" duration="10119000" />
       <workItem from="1536518070452" duration="694000" />
       <workItem from="1536529292502" duration="4502000" />
-      <workItem from="1536701414740" duration="5674000" />
+      <workItem from="1536701414740" duration="5759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83426000" />
+    <option name="totallyTimeSpent" value="83511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -635,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/add-article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="79" column="67" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
+        <state relative-caret-position="357">
+          <caret line="95" column="132" selection-start-line="95" selection-start-column="132" selection-end-line="95" selection-end-column="132" />
         </state>
       </provider>
     </entry>
