@@ -84,7 +84,23 @@
                             <textarea id="editor" name="editor">
 
                              </textarea>
-
+                            <div class="form-group mt-4">
+                                <label for="basic-url" class="mb-0">اضف رابط Youtube</label>
+                                <small class="d-block   ">مثال: https://www.youtube.com/watch?v=ARA0AxrnHdM</small>
+                                <div class="input-group mb-3 add-youtube-link">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon3"><i
+                                                    class="fa fa-youtube-play"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="basic-url"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+                            <label class="d-block mt-3">صورة معبرة عن التجربة</label>
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="customFile">
+                                <label class="custom-file-label" for="customFile">اختر صوره</label>
+                            </div>
                             <button type="submit" class="button mt-3"> نشر التجربة</button>
                         </form>
                     </div>
@@ -174,6 +190,12 @@
 <script src="js/sample.js"></script>
 <script>
     initSample();
+
+
+    $('.custom-file-input').on('change', function() {
+        let fileName = $(this).val().split('\\').pop();
+        $(this).next('.custom-file-label').addClass("selected").html(fileName);
+    });
 </script>
 </body>
 

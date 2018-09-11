@@ -354,6 +354,30 @@ label.error{
 .section-field{
     position: relative;
 }
+.add-youtube-link .input-group-append{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: auto;
+    z-index: 10;
+}
+.add-youtube-link .input-group-append i{
+    color: #cd201f;
+    font-size: 30px;
+}
+.custom-file-label::after{
+    right: auto;
+    left: 0;
+    content: "تصفح";
+}
+.custom-file-input:lang(en)~.custom-file-label::after{
+    content: "تصفح";
+    font-family: 'Changa', sans-serif;
+    font-size: 15px;
+}
+.custom-file-label{
+    padding-top: 0.6rem;
+}
 @media (max-width: 991px) {
     .mega-menu .menu-logo {
         padding: 10px 0;
