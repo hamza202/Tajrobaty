@@ -378,6 +378,9 @@ label.error{
 .custom-file-label{
     padding-top: 0.6rem;
 }
+.ytp-pause-overlay,.ytp-player-content{
+    display: none !important;
+}
 @media (max-width: 991px) {
     .mega-menu .menu-logo {
         padding: 10px 0;
