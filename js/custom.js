@@ -7,7 +7,10 @@ Design and Developed by: potenzaglobalsolutions.com
 NOTE: This file contains all scripts for the actual Template.
 
 */
-
+$('.tagggle-like').click(function() {
+    $(this).toggleClass('fa-heart-o');
+    $(this).toggleClass('fa-heart');
+});
 /*================================================
 [  Table of contents  ]
 ================================================

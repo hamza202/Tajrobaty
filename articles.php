@@ -86,6 +86,7 @@
                                     </div>
                                     <div class="entry-meta mb-10">
                                         <ul>
+                                            <li><i class="fa tagggle-like fa-heart-o"></i> 5</li>
                                             <li><i class="fa fa-eye"></i> 25</li>
                                             <li><i class="fa fa-comment-o"></i> 5</li>
                                             <li><i class="fa fa-calendar-o"></i> 12 Aug 2018</li>
