@@ -109,7 +109,9 @@
 
 
                                 </p>
-                                <iframe width="100%" height="350" src="https://www.youtube.com/embed/ARA0AxrnHdM?rel=0&amp;showinfo=0?ecver=2" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <iframe width="100%" height="350"
+                                        src="https://www.youtube.com/embed/ARA0AxrnHdM?rel=0&amp;showinfo=0?ecver=2"
+                                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -118,7 +120,19 @@
                         <form action="#">
                             <div class="form-group mb-0">
                                 <textarea class="form-control" rows="3" placeholder="اكتب التعليق هنا"></textarea>
-                                <button id="submit" name="submit" type="submit" value="Send" class="button mt-3 mb-0"><span>اضافة تعليق</span></button>
+                                <h6 class="rate-title mb-0 mt-3">قيم التجربة:</h6>
+                                    <fieldset class="commt-rate-container">
+                                        <span class="star-cb-group">
+                                          <input type="radio" id="rating-5" name="rating" value="5"/><label for="rating-5">5</label>
+                                          <input type="radio" id="rating-4" name="rating" value="4"/><label for="rating-4">4</label>
+                                          <input type="radio" id="rating-3" name="rating" value="3" checked="checked"/><label for="rating-3">3</label>
+                                          <input type="radio" id="rating-2" name="rating" value="2"/><label for="rating-2">2</label>
+                                          <input type="radio" id="rating-1" name="rating" value="1"/><label for="rating-1">1</label>
+                                          <input type="radio" id="rating-0" name="rating" value="0" class="star-cb-clear"/><label for="rating-0">0</label>
+                                        </span>
+                                    </fieldset>
+                                <button id="submit" name="submit" type="submit" value="Send" class="button mt-3 mb-0">
+                                    <span>اضافة تعليق</span></button>
                             </div>
                         </form>
                     </div>
@@ -152,7 +166,9 @@
                                                               placeholder="اكتب الرد هنا"></textarea>
                                                     <button id="submit" name="submit" type="submit" value="Send"
                                                             class="button mt-3 mb-0"><span>اضف الرد</span></button>
-                                                    <button class="btn btn-danger float-right mt-3" type="button" data-toggle="collapse" data-target="#Reply1" aria-expanded="false" aria-controls="Reply1">
+                                                    <button class="btn btn-danger float-right mt-3" type="button"
+                                                            data-toggle="collapse" data-target="#Reply1"
+                                                            aria-expanded="false" aria-controls="Reply1">
                                                         اغلاق
                                                     </button>
                                                 </div>
@@ -220,7 +236,9 @@
                                                               placeholder="اكتب الرد هنا"></textarea>
                                                     <button id="submit" name="submit" type="submit" value="Send"
                                                             class="button mt-3 mb-0"><span>اضف الرد</span></button>
-                                                    <button class="btn btn-danger float-right mt-3" type="button" data-toggle="collapse" data-target="#Reply2" aria-expanded="false" aria-controls="Reply2">
+                                                    <button class="btn btn-danger float-right mt-3" type="button"
+                                                            data-toggle="collapse" data-target="#Reply2"
+                                                            aria-expanded="false" aria-controls="Reply2">
                                                         اغلاق
                                                     </button>
                                                 </div>
@@ -265,10 +283,14 @@
                                     </ul>
                                     <div class="social-icons social-border rounded color-hover clearfix">
                                         <ul>
-                                            <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li class="social-instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                            <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a>
+                                            </li>
+                                            <li class="social-instagram"><a href="#"><i class="fa fa-instagram"></i></a>
+                                            </li>
+                                            <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

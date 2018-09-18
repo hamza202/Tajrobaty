@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30efb540-559b-4dc6-b600-bcb80603e078" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/articles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singel.php" beforeDir="false" afterPath="$PROJECT_DIR$/singel.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,18 +92,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1656" />
+          <entry key="css" value="1673" />
           <entry key="html" value="925" />
           <entry key="js" value="34" />
-          <entry key="php" value="3107" />
+          <entry key="php" value="3188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1656" />
+          <entry key="CSS" value="1673" />
           <entry key="HTML" value="925" />
           <entry key="JavaScript" value="34" />
-          <entry key="PHP" value="3107" />
+          <entry key="PHP" value="3188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -116,7 +115,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="167">
@@ -133,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/singel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="75" column="89" selection-start-line="75" selection-start-column="89" selection-end-line="75" selection-end-column="89" />
+            <state relative-caret-position="262">
+              <caret line="123" column="73" selection-start-line="123" selection-start-column="53" selection-end-line="123" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -166,11 +165,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="556" column="17" selection-start-line="556" selection-start-column="17" selection-end-line="556" selection-end-column="17" />
+            <state relative-caret-position="126">
+              <caret line="612" column="22" selection-start-line="612" selection-start-column="22" selection-end-line="612" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -186,7 +185,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mega_menu.js</find>
       <find>op-</find>
       <find>op-bar-section.ph</find>
       <find>shpping-cart</find>
@@ -214,10 +212,14 @@
       <find>.float</find>
       <find>عنوان تجريبي للمقال</find>
       <find>entry-title</find>
+      <find>التقيم</find>
+      <find>.star-cb-group *</find>
+      <find>اضافة</find>
     </findStrings>
     <replaceStrings>
       <replace>مواضيع</replace>
       <replace>حمزة القحطاني</replace>
+      <replace>التقييم:</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -250,10 +252,10 @@
         <option value="$PROJECT_DIR$/signup.php" />
         <option value="$PROJECT_DIR$/add-article.php" />
         <option value="$PROJECT_DIR$/js/custom.js" />
-        <option value="$PROJECT_DIR$/singel.php" />
         <option value="$PROJECT_DIR$/profile.php" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/articles.php" />
+        <option value="$PROJECT_DIR$/singel.php" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
   </component>
@@ -335,12 +337,12 @@
       <workItem from="1536701414740" duration="7728000" />
       <workItem from="1536960827459" duration="879000" />
       <workItem from="1537122416399" duration="3398000" />
-      <workItem from="1537304691926" duration="805000" />
+      <workItem from="1537304691926" duration="2212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90562000" />
+    <option name="totallyTimeSpent" value="91969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -586,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="89" selection-start-line="75" selection-start-column="89" selection-end-line="75" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/add-article.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -614,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="556" column="17" selection-start-line="556" selection-start-column="17" selection-end-line="556" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/articles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -630,6 +618,20 @@
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="123" column="73" selection-start-line="123" selection-start-column="53" selection-end-line="123" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="612" column="22" selection-start-line="612" selection-start-column="22" selection-end-line="612" selection-end-column="22" />
         </state>
       </provider>
     </entry>
