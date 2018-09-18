@@ -493,6 +493,70 @@ label.error {
 .add-youtube-link .input-group-append .input-group-text{
     min-width: 54px;
 }
+.blog-detail .entry-title a{
+    float: right;
+}
+.blog-detail .product-reviews-summary{
+    float: left;
+}
+.rating-summary {
+    position: relative;
+}
+.rating-summary .rating-result {
+    margin-left: 5px;
+    width: 74px;
+    position: relative;
+}
+.rating-summary .rating-result:before {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    font-family: 'FontAwesome';
+    z-index: 1;
+    color: #c7c7c7;
+    font-size: 15px;
+    height: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    content: '\f006' '\f006' '\f006' '\f006' '\f006';
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+}
+.rating-summary .rating-result > span {
+    display: block;
+    overflow: hidden;
+}
+.rating-summary .rating-result span:before {
+    color: #fea800;
+    font-family: 'FontAwesome';
+    content: '\f005' '\f005' '\f005' '\f005' '\f005';
+    font-size: 15px;
+    height: 16px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.rating-summary .rating-result > span:before {
+    position: relative;
+    z-index: 2;
+    font-family: 'FontAwesome';
+    color: #fea800;
+    font-size: 15px;
+    height: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    content: '\f005' '\f005' '\f005' '\f005' '\f005';
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+}
+.product-reviews-summary h5{
+    font-size: 14px;
+    margin-bottom: 0;
+}
 @media (max-width: 991px) {
     .mega-menu .menu-logo {
         padding: 10px 0;

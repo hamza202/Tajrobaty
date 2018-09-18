@@ -64,9 +64,10 @@
                 <div class="col-lg-9">
                     <div class="row">
                         <div class="col-12 mb-30 serch-form">
-                            <form action="#"  class="row justify-content-center pr-15 pl-15">
-                                <input type="text" class="not-click form-control col-sm-10  xs-mr-0" name="search" placeholder="بحث..." value="">
-                                <button class="button btn-block col-sm-2 xs-mt-10" type="submit"> بحث </button>
+                            <form action="#" class="row justify-content-center pr-15 pl-15">
+                                <input type="text" class="not-click form-control col-sm-10  xs-mr-0" name="search"
+                                       placeholder="بحث..." value="">
+                                <button class="button btn-block col-sm-2 xs-mt-10" type="submit"> بحث</button>
                             </form>
                         </div>
                     </div>
@@ -83,6 +84,15 @@
                                     </div>
                                     <div class="entry-title mb-10 mt-3">
                                         <a href="#">عنوان تجريبي للمقال</a>
+                                        <div class="product-reviews-summary">
+                                            <h5>التقييم:</h5>
+                                            <div class="rating-summary">
+                                                <div class="rating-result" title="40%">
+                                                    <span style="width:40%"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
                                     </div>
                                     <div class="entry-meta mb-10">
                                         <ul>
@@ -93,12 +103,17 @@
                                         </ul>
                                     </div>
                                     <div class="entry-content">
-                                        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد
-                                            النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى
+                                        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من
+                                            مولد
+                                            النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة
+                                            إلى
                                             زيادة عدد الحروف التى يولدها التطبيق.
-                                            إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما
-                                            تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع
-                                            على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم
+                                            إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد
+                                            الفقرات كما
+                                            تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي
+                                            المواقع
+                                            على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية
+                                            لتصميم
                                             الموقع... </p>
                                     </div>
                                     <div class="entry-share clearfix">
@@ -120,6 +135,15 @@
                                     </div>
                                     <div class="entry-title mb-10 mt-3">
                                         <a href="#">عنوان تجريبي للمقال</a>
+                                        <div class="product-reviews-summary">
+                                            <h5>التقييم:</h5>
+                                            <div class="rating-summary">
+                                                <div class="rating-result" title="50%">
+                                                    <span style="width:50%"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
                                     </div>
                                     <div class="entry-meta mb-10">
                                         <ul>
@@ -129,12 +153,17 @@
                                         </ul>
                                     </div>
                                     <div class="entry-content">
-                                        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد
-                                            النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى
+                                        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من
+                                            مولد
+                                            النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة
+                                            إلى
                                             زيادة عدد الحروف التى يولدها التطبيق.
-                                            إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما
-                                            تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع
-                                            على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم
+                                            إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد
+                                            الفقرات كما
+                                            تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي
+                                            المواقع
+                                            على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية
+                                            لتصميم
                                             الموقع... </p>
                                     </div>
                                     <div class="entry-share clearfix">
@@ -156,6 +185,15 @@
                                     </div>
                                     <div class="entry-title mb-10 mt-3">
                                         <a href="#">عنوان تجريبي للمقال</a>
+                                        <div class="product-reviews-summary">
+                                            <h5>التقييم:</h5>
+                                            <div class="rating-summary">
+                                                <div class="rating-result" title="10%">
+                                                    <span style="width:10%"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
                                     </div>
                                     <div class="entry-meta mb-10">
                                         <ul>
@@ -165,12 +203,17 @@
                                         </ul>
                                     </div>
                                     <div class="entry-content">
-                                        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد
-                                            النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى
+                                        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من
+                                            مولد
+                                            النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة
+                                            إلى
                                             زيادة عدد الحروف التى يولدها التطبيق.
-                                            إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما
-                                            تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع
-                                            على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم
+                                            إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد
+                                            الفقرات كما
+                                            تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي
+                                            المواقع
+                                            على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية
+                                            لتصميم
                                             الموقع... </p>
                                     </div>
                                     <div class="entry-share clearfix">
@@ -211,21 +254,23 @@
                 <!-- ================================================ -->
                 <div class="col-lg-3 ">
                     <div class="filter">
-                    <p class="mb-30">
-                        <button class="btn btn-primary btn-lg  btn-block" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            احدث التجارب
-                        </button>
-                    </p>
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body mb-3 sidebar-widget">
-                            <ul class="widget-categories">
-                                <li><a href="#"><i class="fa fa-angle-double-left"></i>أحدث التجارب  </a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-left"></i>  الأكثر تفاعلاٌ </a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-left"></i> الأكثر مشاهدة</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-left"></i>  الأكثر تفضيلاً</a></li>
-                            </ul>
+                        <p class="mb-30">
+                            <button class="btn btn-primary btn-lg  btn-block" type="button" data-toggle="collapse"
+                                    data-target="#collapseExample" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                احدث التجارب
+                            </button>
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body mb-3 sidebar-widget">
+                                <ul class="widget-categories">
+                                    <li><a href="#"><i class="fa fa-angle-double-left"></i>أحدث التجارب </a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-left"></i> الأكثر تفاعلاٌ </a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-left"></i> الأكثر مشاهدة</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-left"></i> الأكثر تفضيلاً</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
                     </div>
                     <div class="sidebar-widget mb-3 clearfix">
                         <h6 class=" mb-20">التجارب الأكثر نقاش</h6>
@@ -250,14 +295,14 @@
                     <div class="sidebar-widget mb-3 clearfix">
                         <h6 class=" mb-20"> تصنيقات التجارب </h6>
                         <div class="last-tests">
-                        <a href="#">
-                            <figure>
-                                <img src="images/blog/small/05.jpg" alt="">
-                                <div class="figure-title">
-                                    <span class="tagname">مشروع مادة</span>
-                                </div>
-                            </figure>
-                        </a>
+                            <a href="#">
+                                <figure>
+                                    <img src="images/blog/small/05.jpg" alt="">
+                                    <div class="figure-title">
+                                        <span class="tagname">مشروع مادة</span>
+                                    </div>
+                                </figure>
+                            </a>
                             <a href="#">
                                 <figure>
                                     <img src="images/blog/small/05.jpg" alt="">
