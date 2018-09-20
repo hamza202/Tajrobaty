@@ -382,8 +382,6 @@ POTENZA.masonry = function () {
        var $elem = $(this),
            $acpanel = $elem.find(".acd-group > .acd-des"),
            $acsnav =  $elem.find(".acd-group > .acd-heading");
-          $acpanel.hide().first().slideDown("easeOutExpo");
-          $acsnav.first().parent().addClass("acd-active");
           $acsnav.on('click', function () {
             if(!$(this).parent().hasClass("acd-active")){
               var $this = $(this).next(".acd-des");

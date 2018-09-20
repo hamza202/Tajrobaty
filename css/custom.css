@@ -633,6 +633,43 @@ body {
     text-align: center;
     background: transparent;
 }
+.category-page .category-container{
+    margin-bottom: 30px;
+}
+.accordion .acd-group .acd-heading:before{
+    right: auto;
+    left: 20px;
+}
+.accordion.shadow .acd-des{
+    display: none;
+    padding-top: 15px;
+    background: #f7fffd;
+}
+.accordion.shadow .acd-group.acd-active .acd-heading, .accordion.shadow .acd-group .acd-heading:hover{
+    background: #324b5f;
+}
+.accordion .acd-heading{
+    font-family: 'Changa', sans-serif;
+}
+.accordion.shadow .acd-heading{
+    padding: 14px 30px;
+    margin-bottom: 0;
+}
+.acd-des .widget-categories li:not(:first-child){
+    margin-top: 5px;
+}
+.acd-des .widget-categories li a:hover{
+    padding-right: 5px;
+    color: #324b5f;
+}
+.acd-des .widget-categories a {
+    font-size: 15px;
+}
+.accordion .acd-heading{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    background: #f7f7f7;
+}
 @media (max-width: 991px) {
     .mega-menu .menu-logo {
         padding: 10px 0;
