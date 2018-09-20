@@ -170,6 +170,12 @@
                                                 <i class="fa  fa-heart"></i>
                                             </a>
                                         </li>
+                                        <li class="list-inline-item position-relative">
+                                            <a href="#">
+                                                <span>5</span>
+                                                <i class="fa fa-question"></i>
+                                            </a>
+                                        </li>
                                     </ul>
                                     <div class="social-icons social-border rounded color-hover clearfix">
                                         <ul>
