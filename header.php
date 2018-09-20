@@ -27,7 +27,7 @@
 
                                     <li><a href="articles.php"> نقاشات التجارب </a>
                                     </li>
-                                    <li><a href="#">تصنيفات</a>
+                                    <li><a href="category.php">تصنيفات</a>
                                     </li>
                                     <li><a href="#">اسئلة ونقاشات </a>
 
