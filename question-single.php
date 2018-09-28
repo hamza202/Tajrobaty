@@ -66,14 +66,31 @@
                     <div class="blog-entry mb-50">
                         <div class="blog-detail">
                             <h3 class="dark-color mb-30">عنوان تجريبي </h3>
-                            <div class="entry-meta mb-10">
-                                <ul>
+                            <div class="entry-meta ">
+                                <ul class="pull-right">
                                     <li><i class="fa tagggle-like fa-heart-o"></i> 5</li>
                                     <li><i class="fa fa-eye"></i> 25</li>
                                     <li><i class="fa fa-comment-o"></i> 5</li>
                                     <li><i class="fa fa-calendar-o"></i> 12 Aug 2018</li>
                                 </ul>
+                                <ul class="pull-left">
+                                    <li>
+                                        <button type="button" class="like like-button" data-toggle="tooltip"
+                                                title="اعجبني">
+                                            <i class="fa fa-thumbs-o-up"></i>
+                                            <ins>2.2k</ins>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button type="button" class="dislike like-button" data-toggle="tooltip"
+                                                title="لم يعجبني">
+                                            <i class="fa fa-thumbs-o-down"></i>
+                                            <ins>200</ins>
+                                        </button>
+                                    </li>
+                                </ul>
                             </div>
+                            <div class="clearfix mb-10"></div>
                             <div class="entry-content">
                                 <p>
                                     هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد
@@ -104,7 +121,7 @@
 
 
                                 </p>
-                              </div>
+                            </div>
                         </div>
                     </div>
                     <div class="blog-comments">
@@ -113,16 +130,22 @@
                             <div class="form-group mb-0">
                                 <textarea class="form-control" rows="3" placeholder="اكتب التعليق هنا"></textarea>
                                 <h6 class="rate-title mb-0 mt-3">قيم السؤال:</h6>
-                                    <fieldset class="commt-rate-container">
+                                <fieldset class="commt-rate-container">
                                         <span class="star-cb-group">
-                                          <input type="radio" id="rating-5" name="rating" value="5"/><label for="rating-5">5</label>
-                                          <input type="radio" id="rating-4" name="rating" value="4"/><label for="rating-4">4</label>
-                                          <input type="radio" id="rating-3" name="rating" value="3" checked="checked"/><label for="rating-3">3</label>
-                                          <input type="radio" id="rating-2" name="rating" value="2"/><label for="rating-2">2</label>
-                                          <input type="radio" id="rating-1" name="rating" value="1"/><label for="rating-1">1</label>
-                                          <input type="radio" id="rating-0" name="rating" value="0" class="star-cb-clear"/><label for="rating-0">0</label>
+                                          <input type="radio" id="rating-5" name="rating" value="5"/><label
+                                                    for="rating-5">5</label>
+                                          <input type="radio" id="rating-4" name="rating" value="4"/><label
+                                                    for="rating-4">4</label>
+                                          <input type="radio" id="rating-3" name="rating" value="3"
+                                                 checked="checked"/><label for="rating-3">3</label>
+                                          <input type="radio" id="rating-2" name="rating" value="2"/><label
+                                                    for="rating-2">2</label>
+                                          <input type="radio" id="rating-1" name="rating" value="1"/><label
+                                                    for="rating-1">1</label>
+                                          <input type="radio" id="rating-0" name="rating" value="0"
+                                                 class="star-cb-clear"/><label for="rating-0">0</label>
                                         </span>
-                                    </fieldset>
+                                </fieldset>
                                 <button id="submit" name="submit" type="submit" value="Send" class="button mt-3 mb-0">
                                     <span>اضافة تعليق</span></button>
                             </div>
@@ -135,49 +158,29 @@
                                 <img class="img-fluid" src="images/team/01.jpg" alt="">
                             </div>
                             <div class="comments-info">
-                                <h5 class="theme-color"> حمزة القحطاني <span>Sep 15, 2017</span></h5>
-                                <div class="port-post-social float-right">
-                                    <a data-toggle="collapse" href="#Reply1" role="button" aria-expanded="false"
-                                       aria-controls="Reply1">الرد</a>
-                                </div>
-                                <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد
-                                    النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى
-                                    زيادة عدد الحروف التى يولدها التطبيق.
-                                    إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما
-                                    تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع
-                                    على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم
-                                    الموقع.</p>
-                            </div>
-                            <div class="collapse reply-card" id="Reply1">
-                                <div class="card card-body mb-3">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <form action="#">
-                                                <div class="form-group mb-0">
-                                                    <textarea class="form-control" rows="3"
-                                                              placeholder="اكتب الرد هنا"></textarea>
-                                                    <button id="submit" name="submit" type="submit" value="Send"
-                                                            class="button mt-3 mb-0"><span>اضف الرد</span></button>
-                                                    <button class="btn btn-danger float-right mt-3" type="button"
-                                                            data-toggle="collapse" data-target="#Reply1"
-                                                            aria-expanded="false" aria-controls="Reply1">
-                                                        اغلاق
-                                                    </button>
-                                                </div>
-                                            </form>
-                                        </div>
+                                <h5 class="theme-color pull-right"> حمزة القحطاني <span>Sep 15, 2017</span></h5>
+                                <div class="blog-entry pull-left">
+                                    <div class="entry-meta">
+                                        <ul class="">
+                                            <li>
+                                                <button type="button" class="like like-button" data-toggle="tooltip"
+                                                        title="" data-original-title="اعجبني">
+                                                    <i class="fa fa-thumbs-o-up"></i>
+                                                    <ins>2.2k</ins>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button type="button" class="dislike like-button" data-toggle="tooltip"
+                                                        title="" data-original-title="لم يعجبني">
+                                                    <i class="fa fa-thumbs-o-down"></i>
+                                                    <ins>200</ins>
+                                                </button>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="comments-1 comments-2">
-                            <div class="comments-photo">
-                                <img class="img-fluid" src="images/team/02.jpg" alt="">
-                            </div>
-                            <div class="comments-info">
-                                <h5 class="theme-color"> حمزة القحطاني <span>Sep 15, 2017</span></h5>
-                                <div class="port-post-social float-right">
-                                </div>
+
+                                <div class="clearfix mb-10"></div>
                                 <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد
                                     النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى
                                     زيادة عدد الحروف التى يولدها التطبيق.
@@ -185,19 +188,6 @@
                                     تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع
                                     على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم
                                     الموقع.</p>
-                            </div>
-                        </div>
-                        <div class="comments-1 comments-2">
-                            <div class="comments-photo">
-                                <img class="img-fluid" src="images/team/02.jpg" alt="">
-                            </div>
-                            <div class="comments-info">
-                                <h5 class="theme-color"> حمزة القحطاني <span>Sep 15, 2017</span></h5>
-                                <div class="port-post-social float-right">
-                                </div>
-                                <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد
-                                    النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى
-                                    زيادة عدد الحروف التى يولدها التطبيق.
                             </div>
                         </div>
                         <div class="comments-1">
@@ -205,11 +195,29 @@
                                 <img class="img-fluid" src="images/team/01.jpg" alt="">
                             </div>
                             <div class="comments-info">
-                                <h5 class="theme-color"> حمزة القحطاني <span>Sep 15, 2017</span></h5>
-                                <div class="port-post-social float-right">
-                                    <a data-toggle="collapse" href="#Reply2" role="button" aria-expanded="false"
-                                       aria-controls="Reply2">الرد</a>
+                                <h5 class="theme-color pull-right"> حمزة القحطاني <span>Sep 15, 2017</span></h5>
+                                <div class="blog-entry pull-left">
+                                    <div class="entry-meta">
+                                        <ul class="">
+                                            <li>
+                                                <button type="button" class="like like-button" data-toggle="tooltip"
+                                                        title="" data-original-title="اعجبني">
+                                                    <i class="fa fa-thumbs-o-up"></i>
+                                                    <ins>2.2k</ins>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button type="button" class="dislike like-button" data-toggle="tooltip"
+                                                        title="" data-original-title="لم يعجبني">
+                                                    <i class="fa fa-thumbs-o-down"></i>
+                                                    <ins>200</ins>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
+
+                                <div class="clearfix mb-10"></div>
                                 <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد
                                     النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى
                                     زيادة عدد الحروف التى يولدها التطبيق.
@@ -217,27 +225,6 @@
                                     تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع
                                     على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم
                                     الموقع. </p>
-                            </div>
-                            <div class="collapse reply-card" id="Reply2">
-                                <div class="card card-body mb-3">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <form action="#">
-                                                <div class="form-group mb-0">
-                                                    <textarea class="form-control" rows="3"
-                                                              placeholder="اكتب الرد هنا"></textarea>
-                                                    <button id="submit" name="submit" type="submit" value="Send"
-                                                            class="button mt-3 mb-0"><span>اضف الرد</span></button>
-                                                    <button class="btn btn-danger float-right mt-3" type="button"
-                                                            data-toggle="collapse" data-target="#Reply2"
-                                                            aria-expanded="false" aria-controls="Reply2">
-                                                        اغلاق
-                                                    </button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>

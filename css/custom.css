@@ -685,8 +685,37 @@ body {
     margin-left: 0;
     margin-right: 5px;
 }
-
-
+.like-button{
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+.like-button.like,
+.like-button.like i{
+    color: green !important;
+}
+.like-button.dislike,
+.like-button.dislike i{
+    color: red !important;
+}
+.like-button{
+    font-size: 19px;
+    line-height: 0px;
+    margin-top: 0;
+}
+ .like-button i{
+    transform: rotate(0);
+    transition: all 0.4s ease-in-out;
+}
+ .like-button:hover i{
+    transform: rotate(-15deg);
+}
+ .comments-info .blog-entry{
+     box-shadow: none;
+ }
+.comments-info .blog-entry:hover{
+    box-shadow: none;
+}
 @media (max-width: 991px) {
     .mega-menu .menu-logo {
         padding: 10px 0;
