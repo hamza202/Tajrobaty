@@ -29,7 +29,7 @@
                                     </li>
                                     <li><a href="category.php">تصنيفات</a>
                                     </li>
-                                    <li><a href="#">اسئلة ونقاشات </a>
+                                    <li><a href="question.php">اسئلة ونقاشات </a>
 
                                     </li>
                                     <li><a href="#">عن المشروع</a>
