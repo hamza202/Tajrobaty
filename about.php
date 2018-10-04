@@ -57,12 +57,71 @@
     <!--=================================
      banner -->
 
-    <section class="blog white-bg page-section-ptb">
+    <section class="page-section-ptb">
         <div class="container">
-            
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid full-width mb-20" src="images/about/03.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-title">
+                        <h2 class="title-effect">ما هوه مشروعنا؟</h2>
+                    </div>
+                <p>
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                    إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
+                    ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.
+                    هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.
+                </p>
+                </div>
+            </div>
         </div>
     </section>
-
+    <section>
+        <div class="container-fluid p-0">
+            <div class="row no-gutter">
+                <div class="col-lg-4 feature-step-2 bg-01 bg-overlay-black-50">
+                    <div class="clearfix">
+                        <div class="feature-step-2-box">
+                            <div class="feature-step-2-title-left">
+                                <h1>01</h1>
+                            </div>
+                            <div class="feature-step-2-title-2-right">
+                                <h3 class="text-white">تجارب لطلاب الجامعات</h3>
+                                <p class="text-white">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 feature-step-2 bg-02 bg-overlay-black-50">
+                    <div class="clearfix">
+                        <div class="feature-step-2-box">
+                            <div class="feature-step-2-title-left">
+                                <h1>02</h1>
+                            </div>
+                            <div class="feature-step-2-title-2-right">
+                                <h3 class="text-white">تجارب جامعية متنوعة</h3>
+                                <p class="text-white">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 feature-step-2 bg-03 bg-overlay-black-50">
+                    <div class="clearfix">
+                        <div class="feature-step-2-box">
+                            <div class="feature-step-2-title-left">
+                                <h1>03</h1>
+                            </div>
+                            <div class="feature-step-2-title-2-right">
+                                <h3 class="text-white">اخبر العالم عن تجربتك</h3>
+                                <p class="text-white"> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="parallax bg-overlay-black-70 page-section-ptb parallax" data-jarallax='{"type": "scroll-opacity"}'
          style="background-image: url(video/video.jpg);"
          data-jarallax-video="mp4:video/video.mp4,webm:video/video-webm,ogv:video/video.ogv">

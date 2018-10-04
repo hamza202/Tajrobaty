@@ -716,6 +716,15 @@ body {
 .comments-info .blog-entry:hover{
     box-shadow: none;
 }
+.feature-step-2 .feature-step-2-title-left{
+    padding-right: 0;
+    padding-left: 20px;
+
+}
+.feature-step-2 .feature-step-2-title-2-right h3{
+    margin-bottom: 20px;
+    margin-top: 14px;
+}
 @media (max-width: 991px) {
     .mega-menu .menu-logo {
         padding: 10px 0;

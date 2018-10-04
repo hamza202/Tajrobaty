@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30efb540-559b-4dc6-b600-bcb80603e078" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question-single.php" beforeDir="false" afterPath="$PROJECT_DIR$/question-single.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +69,12 @@
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="7" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -93,18 +95,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2057" />
+          <entry key="css" value="2079" />
           <entry key="html" value="925" />
           <entry key="js" value="34" />
-          <entry key="php" value="3661" />
+          <entry key="php" value="3716" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2057" />
+          <entry key="CSS" value="2079" />
           <entry key="HTML" value="925" />
           <entry key="JavaScript" value="34" />
-          <entry key="PHP" value="3661" />
+          <entry key="PHP" value="3716" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -128,21 +130,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="1479">
               <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question-single.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="498">
               <caret line="219" column="66" selection-start-line="219" selection-start-column="66" selection-end-line="219" selection-end-column="66" />
-              <folding>
-                <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -150,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="327">
+              <caret line="116" column="255" selection-start-line="116" selection-start-column="255" selection-end-line="116" selection-end-column="255" />
             </state>
           </provider>
         </entry>
@@ -174,11 +172,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="716" column="20" selection-start-line="716" selection-start-column="20" selection-end-line="716" selection-end-column="20" />
+            <state relative-caret-position="324">
+              <caret line="725" column="21" selection-start-line="725" selection-start-column="21" selection-end-line="725" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -231,7 +229,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Archives</find>
       <find>Blogpost With Image</find>
       <find>active</find>
       <find>login-bg .login-title</find>
@@ -261,6 +258,7 @@
       <find>عنوان تجريبي</find>
       <find>comments-1 comments-2</find>
       <find>comments-info</find>
+      <find>button icon-color white</find>
     </findStrings>
     <replaceStrings>
       <replace>مواضيع</replace>
@@ -304,9 +302,9 @@
         <option value="$PROJECT_DIR$/my-articles.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/question.php" />
+        <option value="$PROJECT_DIR$/question-single.php" />
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/css/custom.css" />
-        <option value="$PROJECT_DIR$/question-single.php" />
       </list>
     </option>
   </component>
@@ -316,7 +314,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="460" />
     <option name="y" value="2" />
     <option name="width" value="941" />
@@ -328,6 +326,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,7 +338,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,18 +390,19 @@
       <workItem from="1537394479394" duration="3980000" />
       <workItem from="1537418215190" duration="2092000" />
       <workItem from="1538018092187" duration="1959000" />
-      <workItem from="1538167589532" duration="2196000" />
+      <workItem from="1538167589532" duration="2796000" />
+      <workItem from="1538659003293" duration="1078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103522000" />
+    <option name="totallyTimeSpent" value="105200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.25642964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.2602118" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.11119516" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -661,6 +660,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/question.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javascript.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -706,35 +712,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.php">
+    <entry file="file://$PROJECT_DIR$/question-single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="498">
+          <caret line="219" column="66" selection-start-line="219" selection-start-column="66" selection-end-line="219" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question.php">
+    <entry file="file://$PROJECT_DIR$/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+        <state relative-caret-position="327">
+          <caret line="116" column="255" selection-start-line="116" selection-start-column="255" selection-end-line="116" selection-end-column="255" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="716" column="20" selection-start-line="716" selection-start-column="20" selection-end-line="716" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question-single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="219" column="66" selection-start-line="219" selection-start-column="66" selection-end-line="219" selection-end-column="66" />
-          <folding>
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="725" column="21" selection-start-line="725" selection-start-column="21" selection-end-line="725" selection-end-column="21" />
         </state>
       </provider>
     </entry>
