@@ -60,11 +60,8 @@
     <section class="page-section-ptb">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <img class="img-fluid full-width mb-20" src="images/about/03.jpg" alt="">
-                </div>
-                <div class="col-lg-6">
-                    <div class="section-title">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
                         <h2 class="title-effect">ما هوه مشروعنا؟</h2>
                     </div>
                 <p>
