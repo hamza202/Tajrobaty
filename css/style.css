@@ -2162,7 +2162,7 @@ img.bottom-img { top: 0; }
 .search-cart .shpping-cart { float: none !important; }
 .mega-menu > section.menu-list-items .search-cart .search { float: none !important; }
 .search-cart .shpping-cart { vertical-align: middle; }
-.logo-center.header .search .search-btn { line-height: 0px; }
+.logo-center.header .search .search-btn  { line-height: 0px; }
 .newsletter.fancy button { padding: 14px 20px; }
 }
  

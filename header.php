@@ -35,7 +35,7 @@
                                     <li><a href="#">عن المشروع</a>
                                     </li>
                                     <li><a href="javascript:void(0)"> تسجيل / دخول <i
-                                                class="fa fa-angle-down fa-indicator"></i></a>
+                                                    class="fa fa-angle-down fa-indicator"></i></a>
                                         <!-- drop down multilevel  -->
                                         <ul class="drop-down-multilevel">
                                             <li><a href="signup.php">مستخدم جديد</a></li>
@@ -44,16 +44,90 @@
                                     </li>
                                 </ul>
                                 <div class="search-cart">
-                                    <div class="search">
-                                        <a class="search-btn not_click" href="javascript:void(0);"></a>
+                                    <div class="search" id="search1">
+                                        <a class="search-btn not_click" id="search-btn1" href="javascript:void(0);"></a>
                                         <div class="search-box not-click">
                                             <form action="http://themes.potenzaglobalsolutions.com/html/webster-responsive-multi-purpose-html5-template/search.html"
                                                   method="get">
                                                 <input type="text" class="not-click form-control" name="search"
                                                        placeholder="بحث..." value="">
                                                 <button class="search-button" type="submit"><i
-                                                        class="fa fa-search not-click"></i></button>
+                                                            class="fa fa-search not-click"></i></button>
                                             </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="search-cart search-cart2">
+                                    <div class="search" id="search2">
+                                        <span class="not-number">10</span>
+                                        <a class="search-btn not_click" id="search-btn2" href="javascript:void(0);"></a>
+                                        <div class="search-box not-click notification-list">
+                                            <ul>
+                                                <li>
+
+                                                    <div class="media">
+                                                        <img class="mr-2 img-fluid" src="https://pbs.twimg.com/profile_images/758084549821730820/_HYHtD8F.jpg" alt="Generic placeholder image">
+                                                        <div class="media-body">
+                                                            <a href="#">نص تجريبي للأشعارات</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+
+                                                    <div class="media">
+                                                        <img class="mr-2 img-fluid" src="https://pbs.twimg.com/profile_images/758084549821730820/_HYHtD8F.jpg" alt="Generic placeholder image">
+                                                        <div class="media-body">
+                                                            <a href="#">نص تجريبي للأشعارات</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+
+                                                    <div class="media">
+                                                        <img class="mr-2 img-fluid" src="https://pbs.twimg.com/profile_images/758084549821730820/_HYHtD8F.jpg" alt="Generic placeholder image">
+                                                        <div class="media-body">
+                                                            <a href="#">نص تجريبي للأشعارات</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+
+                                                    <div class="media">
+                                                        <img class="mr-2 img-fluid" src="https://pbs.twimg.com/profile_images/758084549821730820/_HYHtD8F.jpg" alt="Generic placeholder image">
+                                                        <div class="media-body">
+                                                            <a href="#">نص تجريبي للأشعارات</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+
+                                                    <div class="media">
+                                                        <img class="mr-2 img-fluid" src="https://pbs.twimg.com/profile_images/758084549821730820/_HYHtD8F.jpg" alt="Generic placeholder image">
+                                                        <div class="media-body">
+                                                            <a href="#">نص تجريبي للأشعارات</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+
+                                                    <div class="media">
+                                                        <img class="mr-2 img-fluid" src="https://pbs.twimg.com/profile_images/758084549821730820/_HYHtD8F.jpg" alt="Generic placeholder image">
+                                                        <div class="media-body">
+                                                            <a href="#">نص تجريبي للأشعارات</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+
+                                                    <div class="media">
+                                                        <img class="mr-2 img-fluid" src="https://pbs.twimg.com/profile_images/758084549821730820/_HYHtD8F.jpg" alt="Generic placeholder image">
+                                                        <div class="media-body">
+                                                            <a href="#">نص تجريبي للأشعارات</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
